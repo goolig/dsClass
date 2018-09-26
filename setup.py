@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ds_class',
-    version=":ds_class:a",
+    name='dsClass',
+    version=":dsClass:a",
     description='files to be used in the class',
     author='Guy Shtar',    
     url='https://github.com/goolig/ds_class/tree/master/ds_class',
