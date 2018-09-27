@@ -1,9 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='dsClass',    
-    description='files to be used in the class',
-    author='Guy Shtar',    
-    url='https://github.com/goolig/ds_class/tree/master/ds_class',
-    include_package_data=True,    
+    name='dsClass',
+    version='1.0',
+    description='A useful module',
+    author='Guy',
+    author_email='example@example.com',
+    packages=['dsClass'],  #same as name
 )
