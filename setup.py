@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dsClass',
-    version='1.0.21',
+    version='1.0.22',
     packages=find_packages(),
     description='A useful module',
     author='Guy',
@@ -11,5 +11,5 @@ setup(
           'pydotplus',
       ],
     include_package_data=True,
-    package_data={'': ['*.csv'],'2': ['*.pickle']},
+    package_data={'': ['*.csv','*.pickle']},
 )
