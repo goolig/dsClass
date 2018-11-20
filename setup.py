@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dsClass',
-    version='1.0.24',
+    version='1.0.25',
     packages=find_packages(),
     description='A useful module',
     author='Guy',
