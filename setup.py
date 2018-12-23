@@ -11,5 +11,5 @@ setup(
           'pydotplus',
       ],
     include_package_data=True,
-    package_data={'': ['*.csv','*.pickle','*.ipynb','*.mp4','*.pyc','*.npy']},
+    package_data={'': ['*.csv','*.pickle','*.ipynb','*.mp4','*.pyc','*.npy','*.data-00000-of-00001','*.index']},
 )
