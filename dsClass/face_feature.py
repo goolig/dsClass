@@ -4,7 +4,7 @@ Run the pretrained model to extract 128D face features
 '''
 
 import tensorflow as tf
-from architecture import inception_resnet_v1 as resnet
+import inception_resnet_v1 as resnet
 import numpy as np
 
 class FaceFeature(object):
